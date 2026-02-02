@@ -10,7 +10,7 @@ const projects = [
         github: 'https://github.com/suhasv-14/AI-AGENT'
     },
     {
-        title: 'AI Assistant',
+        title: 'AI ASSISTANT',
         description: 'AI Assistant is a full-stack AI platform built with FastAPI and React, using a multi-agent architecture (Planner, Executor, Critic) to generate intelligent responses via large language models, simulating how modern systems like ChatGPT operate internally.',
         tags: ['FastAPI', 'React', 'Multi-agent', 'LLM'],
         link: 'https://github.com/suhasv-14/AI-ASSISTANT',

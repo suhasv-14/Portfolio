@@ -29,7 +29,7 @@ export function About() {
                                         <p className="font-bold text-slate-900 text-lg">Master of Technology in SE</p>
                                         <p className="text-indigo-600 font-medium">RV College of Engineering</p>
                                         <p className="text-sm text-slate-500 mb-2">2025 - 2027</p>
-                                        <p className="text-slate-600">Focus: Artificial Intelligence and Machine Learning</p>
+
                                     </div>
                                     <div className="relative border-l-2 border-indigo-100 pl-4 py-1">
                                         <div className="absolute -left-[9px] top-3 w-4 h-4 rounded-full bg-slate-300 ring-4 ring-white"></div>
@@ -51,9 +51,9 @@ export function About() {
                                 <div className="mt-4 space-y-6">
                                     <div className="relative border-l-2 border-indigo-100 pl-4 py-1">
                                         <div className="absolute -left-[9px] top-3 w-4 h-4 rounded-full bg-indigo-500 ring-4 ring-white"></div>
-                                        <p className="font-bold text-slate-900 text-lg">Cloud Application Developer Intern</p>
-                                        <p className="text-indigo-600 font-medium">Rooman Technologies</p>
-                                        <p className="text-slate-600">Led the migration of 5+ applications to a multi-cloud environment, reducing operational costs by 30%</p>
+                                        <p className="font-bold text-slate-900 text-lg">VLSI Design Engineer Intern</p>
+                                        <p className="text-indigo-600 font-medium">Rooman Technologies Pvt. Ltd.</p>
+                                        <p className="text-slate-600">Gained practical experience in VLSI and SoC functional design, working on module-level architecture and system specification while adhering to industry standards.</p>
                                     </div>
                                     <div className="relative border-l-2 border-indigo-100 pl-4 py-1">
                                         <div className="absolute -left-[9px] top-3 w-4 h-4 rounded-full bg-slate-300 ring-4 ring-white"></div>
@@ -73,11 +73,11 @@ export function About() {
                                 <h3 className="text-lg leading-6 font-medium text-slate-900">Technical Skills</h3>
                                 <div className="mt-4 space-y-4">
                                     {[
-                                        { category: 'Languages', skills: ['Python', 'C', 'Java', 'MySQL', 'HTML', 'CSS', 'JavaScript'] },
-                                        { category: 'Frameworks', skills: ['React.js', 'Django', 'Selenium', 'Next.js'] },
-                                        { category: 'Cloud & DevOps', skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD'] },
-                                        { category: 'Tools', skills: ['Git', 'VS Code', 'Jupyter Notebook', 'Tableau', 'Postman', 'Figma', 'LaTeX'] },
-                                        { category: 'OS', skills: ['Linux/Unix', 'Raspberry Pi'] }
+                                        { category: 'Languages', skills: ['Python', 'C', 'Java', 'SQL (MySQL)', 'JavaScript', 'HTML', 'CSS'] },
+                                        { category: 'Frameworks', skills: ['React.js', 'FastAPI', 'Flask', 'Django', 'Selenium'] },
+                                        { category: 'Cloud & DevOps', skills: ['Amazon Web Services (AWS)', 'Docker', 'Git', 'GitHub'] },
+                                        { category: 'Tools', skills: ['Jupyter Notebook', 'VS Code', 'Tableau', 'VMware', 'Postman', 'LaTeX', 'Figma'] },
+                                        { category: 'Operating Systems', skills: ['Linux/Unix', 'Raspberry Pi'] }
                                     ].map((group) => (
                                         <div key={group.category}>
                                             <h4 className="text-sm font-semibold text-slate-800 mb-2">{group.category}</h4>
